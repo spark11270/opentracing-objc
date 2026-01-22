@@ -1,0 +1,5 @@
+module opentracing {
+    header "opentracing.h"
+
+    export *
+}
