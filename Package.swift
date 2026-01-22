@@ -15,7 +15,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "opentracing"
+            name: "opentracing",
+            publicHeadersPath: "include"
         )
     ]
 )
