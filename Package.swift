@@ -1,4 +1,4 @@
-// swift-tools-version: 6.2
+// swift-tools-version:6.2
 
 import PackageDescription
 
@@ -15,9 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "opentracing",
-            path: "Pod/Classes",
-            publicHeadersPath: ""
+            name: "opentracing"
         )
     ]
 )
