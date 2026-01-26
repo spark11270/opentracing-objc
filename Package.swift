@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "OpenTracing",
+    name: "opentracing-objc",
     platforms: [
         .iOS(.v15)
     ],
