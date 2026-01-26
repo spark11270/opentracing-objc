@@ -1,9 +1,9 @@
-// swift-tools-version:6.2
+// swift-tools-version: 6.1
 
 import PackageDescription
 
 let package = Package(
-    name: "opentracing-objc",
+    name: "OpenTracing",
     platforms: [
         .iOS(.v15)
     ],
@@ -16,6 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "opentracing",
+            path: "Sources/opentracing",
             publicHeadersPath: "include"
         )
     ]
