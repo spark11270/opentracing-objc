@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "opentracing-objc",
+    name: "OpenTracing",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "Opentracing",
-            targets: ["opentracing"]
+            name: "OpenTracing",
+            targets: ["OpenTracing"]
         )
     ],
     targets: [
         .target(
-            name: "opentracing",
-            path: "Sources/opentracing",
+            name: "OpenTracing",
+            path: "Sources/OpenTracing",
             publicHeadersPath: "include"
         )
     ]

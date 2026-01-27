@@ -1,5 +1,5 @@
 //
-//  opentracing.h
+//  OpenTracing.h
 //  opentracing-objc
 //
 
