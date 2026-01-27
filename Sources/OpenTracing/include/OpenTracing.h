@@ -8,18 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for OpenTracing.
-FOUNDATION_EXPORT double OpenTracingVersionNumber;
-
-//! Project version string for OpenTracing.
-FOUNDATION_EXPORT const unsigned char OpenTracingVersionString[];
-
-#import <OpenTracing/OTGlobal.h>
-#import <OpenTracing/OTNoop.h>
-#import <OpenTracing/OTReference.h>
-#import <OpenTracing/OTSpan.h>
-#import <OpenTracing/OTSpanContext.h>
-#import <OpenTracing/OTTracer.h>
-#import <OpenTracing/OTVersion.h>
+#import "OTGlobal.h"
+#import "OTNoop.h"
+#import "OTReference.h"
+#import "OTSpan.h"
+#import "OTSpanContext.h"
+#import "OTTracer.h"
+#import "OTVersion.h"
 
 #endif /* OpenTracing_h */
